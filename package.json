@@ -1,0 +1,20 @@
+{
+  "name": "smart-inbox",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@google/genai": "^2.30.0",
+    "@netlify/database": "^2.0.1",
+    "@netlify/functions": "^2.8.2",
+    "drizzle-orm": "beta"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "drizzle-kit": "beta",
+    "typescript": "^5.7.2"
+  }
+}
